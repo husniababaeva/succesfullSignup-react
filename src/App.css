@@ -1,0 +1,35 @@
+*{font-family: 'Poppins', sans-serif;;}
+body{
+  /* background: linear-gradient(to right, rgb(11, 84, 112) 0%, rgb(65, 141, 156) 100%); */
+  background: linear-gradient( to right, #9cc7d8, #d4cbe7);
+}
+
+input {
+  background: transparent;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-style: 1px solid #e6e6e6;
+  outline:none;
+  margin-bottom: 10px;
+}
+.error{color: red;}
+.submit{
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 30px;
+  color: white;
+  padding: 10px 50px;
+  background:linear-gradient(to right, #6ba1b6, #c19dd6);
+  box-shadow: rgba(112, 112, 112, 0.3) 0px 19px 38px,rgb(0,0,0,0.22) 0px 15px 12px;
+  margin: auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+button:active{
+  transform: translateY(2px);
+}
+.fs-lg-25{font-size: 25px;}
